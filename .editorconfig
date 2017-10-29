@@ -10,8 +10,8 @@ insert_final_newline = true
 charset = utf-8
 ; Use space characters for indenting
 indent_style = space
-; Each indent is 8 space characters
-indent_size = 8
+; Each indent is 2 space characters
+indent_size = 2
 ; No trailing whitespace on lines
 trim_trailing_whitespace = true
 
