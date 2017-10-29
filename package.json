@@ -1,0 +1,16 @@
+{
+  "name": "sevenrules"
+, "version": "0.1.0-dev"
+, "description": "Git commit message validator"
+, "homepage": "https://github.com/severndb/sevenrules"
+, "bugs": "https://github.com/severndb/sevenrules/issues"
+, "license": "SEE LICENSE IN LICENSE"
+, "main": "lib/index"
+, "directories": {
+    "lib": "lib"
+  }
+, "repository": {
+    "type": "git"
+  , "url": "https://github.com/severndb/sevenrules.git"
+  }
+}
