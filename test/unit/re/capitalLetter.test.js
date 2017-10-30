@@ -10,4 +10,5 @@ function miss (t, text) {
 }
 
 test('match capital', match, 'A')
+
 test('miss lowercase', miss, 'a')
