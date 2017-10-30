@@ -1,7 +1,7 @@
 import test from 'ava'
 const re = require('../../../lib/re')
 
-test('accept capital', t => {
+test('match capital', t => {
   const capital = 'A'
   t.not(capital.match(re.capitalLetter), null)
 })
