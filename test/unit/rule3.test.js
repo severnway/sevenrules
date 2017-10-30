@@ -1,5 +1,5 @@
 import test from 'ava'
-var rule3 = require('../../lib/rule3')
+const rule3 = require('../../lib/rule3')
 
 test('accept capitalized subject', t => {
   const message = 'Subject'

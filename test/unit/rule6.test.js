@@ -1,5 +1,5 @@
 import test from 'ava'
-var rule6 = require('../../lib/rule6')
+const rule6 = require('../../lib/rule6')
 
 test('accept wrapped body', t => {
   const line = 'x'.repeat(20)

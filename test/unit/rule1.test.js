@@ -1,5 +1,5 @@
 import test from 'ava'
-var rule1 = require('../../lib/rule1')
+const rule1 = require('../../lib/rule1')
 
 test('accept no body', t => {
   const message = 'Subject line'

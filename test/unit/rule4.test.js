@@ -1,5 +1,5 @@
 import test from 'ava'
-var rule4 = require('../../lib/rule4')
+const rule4 = require('../../lib/rule4')
 
 test('accept unterminated subject', t => {
   const message = 'Subject'
