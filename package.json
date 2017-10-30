@@ -18,6 +18,7 @@
     "docjs": "jsdoc -c jsdoc.json",
     "lint": "npm-run-all lintjs",
     "lintjs": "standard --verbose | snazzy",
+    "localtest": "npm-run-all unittest",
     "precommit": "npm-run-all lint doc",
     "unittest": "npm-run-all unittestjs",
     "unittestjs": "ava test/unit"
