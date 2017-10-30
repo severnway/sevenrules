@@ -10,4 +10,5 @@ function miss (t, text) {
 }
 
 test('match period', match, '.')
+
 test('miss letter', miss, 'a')
