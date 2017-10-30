@@ -22,7 +22,7 @@
     "localtest": "npm-run-all unittest",
     "precommit": "npm-run-all lint doc localtest",
     "unittest": "npm-run-all unittestjs",
-    "unittestjs": "ava test/unit"
+    "unittestjs": "ava --verbose test/unit"
   },
   "devDependencies": {
     "ava": ">=0.23.0",
