@@ -17,7 +17,8 @@
     "doc": "npm-run-all docjs",
     "docjs": "jsdoc -c jsdoc.json",
     "lint": "npm-run-all lintjs",
-    "lintjs": "standard --verbose | snazzy"
+    "lintjs": "standard --verbose | snazzy",
+    "precommit": "npm-run-all lint doc"
   },
   "devDependencies": {
     "husky": "beta",
