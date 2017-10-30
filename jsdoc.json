@@ -2,7 +2,8 @@
   "opts": {
     "destination": "apidoc/js",
     "recurse": true,
-    "pedantic": true
+    "pedantic": true,
+    "verbose": true
   },
   "source": {
     "include": [
