@@ -1,5 +1,5 @@
 import test from 'ava'
-const rule2 = require('../../lib/rule2')
+const rule2 = require('../../../lib/rule2')
 
 test('accept under 50 characters', t => {
   const message = 'X'.repeat(20)
