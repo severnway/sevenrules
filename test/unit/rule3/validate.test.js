@@ -1,12 +1,14 @@
 import test from 'ava'
 const rule3 = require('../../../lib/rule3')
 
-test('accept capitalized subject', t => {
-  const message = 'Subject'
+function accept (t, message) {
   t.true(rule3.validate(message))
-})
+}
 
-test('reject uncapitalized subject', t => {
-  const message = 'subject'
+function reject (t, message) {
   t.false(rule3.validate(message))
-})
+}
+
+test('accept capitalized subject', accept, 'Subject')
+
+test('reject uncapitalized subject', reject, 'subject')
