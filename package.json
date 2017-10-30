@@ -21,6 +21,7 @@
     "precommit": "npm-run-all lint doc"
   },
   "devDependencies": {
+    "ava": ">=0.23.0",
     "husky": "beta",
     "jsdoc": ">=3.5.5",
     "npm-run-all": ">=4.1.1",
