@@ -16,6 +16,11 @@ test('accept double line break', t => {
   t.true(rule1.validate(message))
 })
 
+test('accept separated body', t => {
+  const message = 'Subject line\n\nBody'
+  t.true(rule1.validate(message))
+})
+
 test('reject unseparated', t => {
   const message = 'Subject line\nBody'
   t.false(rule1.validate(message))
