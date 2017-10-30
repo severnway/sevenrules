@@ -18,7 +18,8 @@
     "docjs": "jsdoc -c jsdoc.json",
     "lint": "npm-run-all lintjs",
     "lintjs": "standard --verbose | snazzy",
-    "precommit": "npm-run-all lint doc"
+    "precommit": "npm-run-all lint doc",
+    "unittestjs": "ava test/unit"
   },
   "devDependencies": {
     "ava": ">=0.23.0",
