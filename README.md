@@ -2,6 +2,8 @@
 
 Git commit message validator.
 
+Validates the format a git commit message against [The seven rules of a great Git commit message](https://chris.beams.io/posts/git-commit/#seven-rules).
+
 ## Conduct
 
 Respect agency. Follow the [Code of Conduct](CODE_OF_CONDUCT.md).
