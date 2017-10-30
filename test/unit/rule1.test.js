@@ -1,4 +1,3 @@
-// Imports
 import test from 'ava'
 var rule1 = require('../../lib/rule1')
 
