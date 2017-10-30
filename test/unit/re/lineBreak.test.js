@@ -12,4 +12,5 @@ function miss (t, text) {
 test('match CR', match, '\u{D}')
 test('match LF', match, '\u{A}')
 test('match CRLF', match, '\u{D}\u{A}')
+
 test('miss letter', miss, 'a')
