@@ -1,27 +1,17 @@
 import test from 'ava'
 const rule2 = require('../../../lib/rule2')
 
-test('accept under 50 characters', t => {
-  const message = 'X'.repeat(20)
+function accept (t, message) {
   t.true(rule2.validate(message))
-})
+}
 
-test('accept 50 characters', t => {
-  const message = 'X'.repeat(50)
-  t.true(rule2.validate(message))
-})
-
-test('accept over 50 under 72 characters', t => {
-  const message = 'X'.repeat(60)
-  t.true(rule2.validate(message))
-})
-
-test('accept 72 characters', t => {
-  const message = 'X'.repeat(72)
-  t.true(rule2.validate(message))
-})
-
-test('reject over 72 characters', t => {
-  const message = 'X'.repeat(73)
+function reject (t, message) {
   t.false(rule2.validate(message))
-})
+}
+
+test('accept under 50 chars', accept, 'X'.repeat(20))
+test('accept 50 chars', accept, 'X'.repeat(50))
+test('accept over 50 under 72 chars', accept, 'X'.repeat(60))
+test('accept 72 chars', accept, 'X'.repeat(72))
+
+test('reject over 72 chars', reject, 'X'.repeat(73))
