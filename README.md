@@ -1,6 +1,6 @@
 # sevenrules
 
-Git commit message format validator.
+Git commit message validator.
 
 ## Conduct
 
