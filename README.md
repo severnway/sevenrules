@@ -4,6 +4,8 @@ Git commit message validator.
 
 Validates the format a git commit message against [The seven rules of a great Git commit message](https://chris.beams.io/posts/git-commit/#seven-rules).
 
+Inspired by the [quality Bash implementation](https://gitlab.com/silent.correspondent/commit-msg/blob/master/commit-msg.sh) by Silent Correspondent.
+
 ## Conduct
 
 Respect agency. Follow the [Code of Conduct](CODE_OF_CONDUCT.md).
