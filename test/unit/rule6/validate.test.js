@@ -1,16 +1,16 @@
 import test from 'ava'
 const rule6 = require('../../../lib/rule6')
 
-test('accept wrapped body', t => {
-  const line = 'x'.repeat(20)
-  const body = line + '\n' + line
-  const message = 'Subject\n\n' + body
+function accept (t, message) {
   t.true(rule6.validate(message))
-})
+}
 
-test('reject unwrapped body', t => {
-  const line = 'x'.repeat(100)
-  const body = line + '\n' + line
-  const message = 'Subject\n\n' + body
+function reject (t, message) {
   t.false(rule6.validate(message))
-})
+}
+
+test('accept wrapped body', accept,
+  'Subject\n\n' + 'x'.repeat(20))
+
+test('reject unwrapped body', reject,
+  'Subject\n\n' + 'x'.repeat(100))
