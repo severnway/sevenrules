@@ -19,5 +19,10 @@
   "devDependencies": {
     "husky": "beta",
     "standard": ">=10.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lintjs"
+    }
   }
 }
