@@ -14,7 +14,7 @@
     "url": "https://github.com/severndb/sevenrules.git"
   },
   "scripts": {
-    "lintjs": "standard"
+    "lintjs": "standard --verbose | snazzy"
   },
   "devDependencies": {
     "husky": "beta",
