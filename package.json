@@ -14,6 +14,7 @@
     "url": "https://github.com/severndb/sevenrules.git"
   },
   "devDependencies": {
-    "husky": "^0.15.0-beta.11"
+    "husky": "^0.15.0-beta.11",
+    "standard": ">=10.0.3"
   }
 }
