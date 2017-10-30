@@ -19,7 +19,7 @@
     "lint": "npm-run-all lintjs",
     "lintjs": "standard --verbose | snazzy",
     "localtest": "npm-run-all unittest",
-    "precommit": "npm-run-all lint doc",
+    "precommit": "npm-run-all lint doc localtest",
     "unittest": "npm-run-all unittestjs",
     "unittestjs": "ava test/unit"
   },
