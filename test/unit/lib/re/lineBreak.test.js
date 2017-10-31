@@ -1,5 +1,5 @@
 import test from 'ava'
-const re = require('../../../lib/re')
+const re = require('../../../../lib/re')
 
 function match (t, text) {
   t.not(text.match(re.lineBreak), null)
