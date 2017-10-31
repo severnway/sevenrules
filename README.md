@@ -20,7 +20,7 @@ Inspired by the [quality Bash implementation](https://gitlab.com/silent.correspo
 
 Install husky and the validator:
 
-```
+```Shell
 npm install husky --save-dev
 npm install sevenrules --save-dev
 ```
