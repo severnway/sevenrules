@@ -14,7 +14,30 @@ Validates the format a git commit message against [The seven rules of a great Gi
 
 The bolded rules 1-4 and 6 are checked. The remaining 2 are not detectable programmatically. The title of [rule 2](https://chris.beams.io/posts/git-commit/#limit-50) says 50 characters, but the body clarifies 72 is the hard limit.
 
+Provides a [husky](https://github.com/typicode/husky) hook for easy use.
+
 Inspired by the [quality Bash implementation](https://gitlab.com/silent.correspondent/commit-msg/blob/master/commit-msg.sh) by Silent Correspondent.
+
+## Usage
+
+Install husky and the validator:
+
+```
+npm install husky --save-dev
+npm install sevenrules --save-dev
+```
+
+Hook the validator to `commitmsg` in your `package.json`:
+
+```
+{
+  "scripts": {
+    "commitmsg": "sevenrules"
+  }
+}
+```
+
+Enjoy your clean commit log!
 
 ## Conduct
 
