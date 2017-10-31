@@ -28,14 +28,14 @@
     "unittestjs": "ava --verbose test/unit"
   },
   "devDependencies": {
-    "ava": ">=0.23.0",
+    "ava": "0",
     "husky": "beta",
-    "jsdoc": ">=3.5.5",
-    "mock-require": ">=2.0.2",
-    "npm-run-all": ">=4.1.1",
-    "sinon": ">=4.0.2",
-    "snazzy": "^7.0.0",
-    "standard": ">=10.0.3"
+    "jsdoc": "3",
+    "mock-require": "2",
+    "npm-run-all": "4",
+    "sinon": "4",
+    "snazzy": "7",
+    "standard": "10"
   },
   "husky": {
     "hooks": {
