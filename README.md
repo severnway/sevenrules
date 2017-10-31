@@ -27,7 +27,7 @@ npm install sevenrules --save-dev
 
 Hook the validator to `commitmsg` in your `package.json`:
 
-```
+```JSON
 {
   "scripts": {
     "commitmsg": "sevenruleshusky"
