@@ -19,7 +19,7 @@
   "scripts": {
     "ava": "ava --verbose",
     "doc": "npm-run-all docjs",
-    "docjs": "jsdoc -c jsdoc.json",
+    "docjs": "jsdoc -c .jsdoc.json",
     "lint": "npm-run-all lintjs",
     "lintjs": "standard --verbose | snazzy",
     "localtest": "npm-run-all unittest",
