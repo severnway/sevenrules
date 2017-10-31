@@ -30,7 +30,7 @@ Hook the validator to `commitmsg` in your `package.json`:
 ```
 {
   "scripts": {
-    "commitmsg": "sevenrules"
+    "commitmsg": "sevenruleshusky"
   }
 }
 ```
