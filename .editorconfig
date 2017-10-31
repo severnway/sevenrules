@@ -26,3 +26,8 @@ insert_final_newline = false
 [*.js]
 ; Each indent is 2 space characters
 indent_size = 2
+
+; JSON
+[*.json]
+; Each indent is 2 space characters
+indent_size = 2
