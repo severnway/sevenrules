@@ -1,7 +1,5 @@
 # sevenrules
 
-Git commit message validator.
-
 Validates the format a git commit message against [The seven rules of a great Git commit message](https://chris.beams.io/posts/git-commit/#seven-rules):
 
 1. **Separate subject from body with a blank line**
