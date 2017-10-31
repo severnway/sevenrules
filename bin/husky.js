@@ -24,7 +24,7 @@ if (!(
   results[4] &&
   results[6]
 )) {
-  console.log('Valorous brethren, thy commit message hast some problems.')
+  console.log('Valorous magus, thy commit message hast some problems.')
   console.log('Please try the following changes:')
   if (!results[1]) console.log('  ' + sevenrules.rule1.rule)
   if (!results[2]) console.log('  ' + sevenrules.rule2.rule)
