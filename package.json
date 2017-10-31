@@ -24,6 +24,7 @@
     "lintjs": "standard --verbose | snazzy",
     "localtest": "npm-run-all unittest",
     "precommit": "npm-run-all lint doc localtest",
+    "test": "npm run localtest",
     "unittest": "npm-run-all unittestjs",
     "unittestjs": "ava --verbose test/unit"
   },
