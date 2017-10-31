@@ -6,6 +6,9 @@
   "bugs": "https://github.com/severndb/sevenrules/issues",
   "license": "SEE LICENSE IN LICENSE",
   "main": "lib/index",
+  "bin": {
+    "sevenruleshusky": "bin/husky.js"
+  },
   "directories": {
     "lib": "lib"
   },
