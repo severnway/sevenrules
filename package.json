@@ -29,6 +29,7 @@
     "husky": "beta",
     "jsdoc": ">=3.5.5",
     "npm-run-all": ">=4.1.1",
+    "sinon": ">=4.0.2",
     "snazzy": "^7.0.0",
     "standard": ">=10.0.3"
   },
