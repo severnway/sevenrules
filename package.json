@@ -1,6 +1,6 @@
 {
   "name": "sevenrules",
-  "version": "0.3.0-dev",
+  "version": "0.3.0",
   "description": "Git commit message validator",
   "homepage": "https://github.com/severndb/sevenrules",
   "bugs": "https://github.com/severndb/sevenrules/issues",
