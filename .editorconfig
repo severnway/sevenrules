@@ -22,6 +22,11 @@ trim_trailing_whitespace = false
 ; Allow precise line control
 insert_final_newline = false
 
+; HTML
+[*.{htm,html}]
+; Each indent is 2 space characters
+indent_size = 2
+
 ; JavaScript
 [*.js]
 ; Each indent is 2 space characters
